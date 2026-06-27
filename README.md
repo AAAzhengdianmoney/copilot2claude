@@ -2,8 +2,8 @@
 
 **按 Copilot 键一键启动 Claude Code（管理员 Windows Terminal）**
 
-## 是什么
-由于我们每次打开部署在终端的Claude Code一般都要按WIN+X，A键与回车，然后输入Claude，这样子十分麻烦
+## 为什么与是什么
+由于我们每次打开部署在终端的Claude Code一般都要按WIN+X，A键与回车，然后输入Claude，对于经常使用Claude Code的使用者来说有些麻烦，
 于是我使用了笔记本电脑那个没什么用的 Copilot 键（右alt键的右方）作为一键启动 Claude Code的快捷键。
 
 ## 原理
