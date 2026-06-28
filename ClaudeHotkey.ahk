@@ -1,9 +1,11 @@
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 
-; Copilot2Claude — 管理员版（无 UAC）
-*<+<#F23::
+; Copilot2Claude — 按 Copilot 键启动管理员 Claude Code
+; Copilot 键 = SC06E (F23 扫描码)
+
+*SC06E::
 {
-    Send("{Blind}{LShift Up}{LWin Up}")
-    Run('powershell -Command "schtasks.exe /run /tn Copilot2Claude"', , "Hide")
+    Send("{Blind}{LWin Up}{LShift Up}")
+    Run('*RunAs ' . A_ScriptDir . '\launch.bat')
 }
