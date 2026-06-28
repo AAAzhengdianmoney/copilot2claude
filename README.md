@@ -97,6 +97,14 @@ copilot2claude/
 | 窗口闪退 | 确认 `launch.bat` 和 `ClaudeHotkey.ahk` 在同一目录下 |
 | Win+X 或其他快捷键失灵 | 重启 AutoHotkey 脚本即可恢复 |
 
+## 反作弊恢复
+
+打游戏时反作弊系统（Vanguard、EAC、BattlEye等）会暂时禁用 AHK 的键盘钩子。游戏退出后，**双击桌面"启用Copilot键"快捷方式**即可恢复。
+
+快捷方式在安装时自动创建，也会放入启动文件夹——重启电脑后自动恢复。
+
+> 💡 也可以手动运行：`D:\AutoHotkey\v2\AutoHotkey64.exe D:\Scripts\copilot2claude\ClaudeHotkey.ahk`
+
 ## 贡献
 
 欢迎提交 Issue 和 Pull Request。特别欢迎分享你的设备型号和诊断结果，帮助更多用户。
